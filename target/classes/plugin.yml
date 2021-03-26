@@ -1,0 +1,9 @@
+name: Medals
+description: Earn medals as a souvenir.
+version: 1.0
+author: zPedroo_
+main: com.zpedroo.medals.Main
+softdepend: [ProtocolLib, HolographicDisplays]
+commands:
+  medals:
+    aliases: [medalha, medalhas]

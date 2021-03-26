@@ -1,0 +1,142 @@
+Settings:
+  # Time to update player medals
+  update-interval: 5 # in ticks
+  # Name of inventory (/medals)
+  main-inventory-name: 'Medalhas'
+  # Rows of main inventory (/medals)
+  main-inventory-rows: 6
+  # Name of inventory (Customs)
+  custom-inventory-name: 'Medalhas - Customizações'
+  # Rows of custom inventory
+  custom-inventory-rows: 4
+  # Show medal when player stays
+  show-self-on-stay: true
+
+CustomLore:
+  using:
+    - '&7Você está usando essa customização!'
+    - ''
+    - '&cClique para retirar!'
+  no-using:
+    - '&7Você não está usando essa customização!'
+    - ''
+    - '&fClique para usar!'
+
+MedalLore:
+  using:
+    - ''
+    - '&cClique para retirar essa medalha!'
+  no-using:
+    - ''
+    - '&fClique para equipar essa medalha!'
+
+BackItem:
+  slot: 27
+  type: ARROW
+  name: '&cVoltar'
+
+NoMedals:
+  slot: 22
+  type: BARRIER
+  name: '&cVocê não possui medalhas!'
+  glow: true
+
+RemoveMedal:
+  slot: 39
+  type: BARRIER
+  name: '&cRetirar Medalha'
+  glow: true
+
+ModifyCustom:
+  slot: 41
+  type: FIREBALL
+  name: '&6Modificar Customização'
+  glow: true
+
+Customs:
+  Kills:
+    extra: " &8| &f%kills% kills"
+    item:
+      type: DIAMOND_SWORD
+      glow: true
+      name: "&cKills"
+  KDR:
+    extra: " &8| &fKDR %kdr%"
+    item:
+      type: DIAMOND_SWORD
+      glow: true
+      name: "&cKDR"
+  Blocks:
+    extra: " &8| %blocks% blocos"
+    item:
+      type: DIAMOND_PICKAXE
+      glow: true
+      name: "&eDuelos Vitoriosos"
+  Duels:
+    extra: " &8| %duels% duelos"
+    item:
+      type: DIAMOND_SWORD
+      glow: true
+      name: "&eDuelos Vitoriosos"
+
+Medals:
+  Bronze:
+    permission: "elosystem.elo.0"
+    display: "&6&l✪%custom%"
+    item:
+      type: SKULL_ITEM
+      owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjk0MTgxODAyYzE5ZTI4MTJmNTNmNTZjZjM0OWY1ZGRhMjdlNmQwYjAxMzlkYTQ5YzcwY2JlMjdiZjhlMGEifX19
+      name: "&6&l✪%custom%"
+      lore:
+        - '&7Essa medalha é exclusiva de quem'
+        - '&7é ou já passou pelo elo Bronze!'
+  Prata:
+    permission: "elosystem.elo.1"
+    display: "&7&l✪%custom%"
+    item:
+      type: SKULL_ITEM
+      owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDE0ODgwZDNjMjM5YzNhOWE4NmE4MTQ1OWVkMWNjM2NhMTE2YmE1MzI2M2VmMTU0NTU1YWEwYTRhOTc4MWViZCJ9fX0=
+      name: "&7&l✪%custom%"
+      lore:
+        - '&7Essa medalha é exclusiva de quem'
+        - '&7é ou já passou pelo elo Prata!'
+  Ouro:
+    permission: "elosystem.elo.2"
+    display: "&e&l✪%custom%"
+    item:
+      type: SKULL_ITEM
+      owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGFjMDgzOTRmYjkxZjUzYWZjZTU2NzQ4NTczMzE3YTI0YjQ5MzQ5YWFhN2FhZWI0YTdjMjNmYmQzY2U2Zjc2In19fQ==
+      name: "&e&l✪%custom%"
+      lore:
+        - '&7Essa medalha é exclusiva de quem'
+        - '&7é ou já passou pelo elo Ouro!'
+  Platina:
+    permission: "elosystem.elo.3"
+    display: "&5&l✪%custom%"
+    item:
+      type: SKULL_ITEM
+      owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmI4YWIwZjY1YTU0YTlhNmVlOGFjZDkwM2I3OGRkZTM0ZThjZWVkNzZhZTViOTI4YTU1NGQ3NWQyYjQ1NDUifX19
+      name: "&5&l✪%custom%"
+      lore:
+        - '&7Essa medalha é exclusiva de quem'
+        - '&7é ou já passou pelo elo Platina!'
+  Diamante:
+    permission: "elosystem.elo.4"
+    display: "&b&l✪%custom%"
+    item:
+      type: SKULL_ITEM
+      owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODk5ZDczZWFiYWQzMWI4MzRkZTEyOTFiODA1MjVhOGQxNDdmOGMyZGY0ZDhlNWJmZTNiMTEyZDY2YWU2MDczIn19fQ==
+      name: "&b&l✪%custom%"
+      lore:
+        - '&7Essa medalha é exclusiva de quem'
+        - '&7é do elo Diamante!'
+  VIP:
+    permission: "medalha.vip"
+    display: "&e&l&k=&6&l Jogador VIP%custom% &e&l&k="
+    item:
+      type: SKULL_ITEM
+      owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWQ5Y2NmMGQyODM1MTRiM2Q3N2NhYmEwMWJmYzI2YjQ1NGM3ZDU3NGJiN2E0Y2VhMTA2NDYxZDU4ZDE1ZjNjMSJ9fX0=
+      name: "&e&l&k=&6&l Jogador VIP%custom% &e&l&k="
+      lore:
+        - '&7Essa medalha é exclusiva de'
+        - '&7jogadores VIP!'
